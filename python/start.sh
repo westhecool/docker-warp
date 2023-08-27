@@ -4,5 +4,5 @@ sleep 5
 warp-cli --accept-tos register
 warp-cli --accept-tos connect
 sleep 5
-$@
+exec "$@"
 sleep infinity
